@@ -1,0 +1,27 @@
+{
+	"appenders": {
+		"console": {
+			"type": "console"
+		}
+	},
+	"categories": {
+		"default": {
+			"appenders": [
+				"console"
+			],
+			"level": "trace"
+		},
+		"system": {
+			"appenders": [
+				"console"
+			],
+			"level": "trace"
+		},
+		"webapi": {
+			"appenders": [
+				"console"
+			],
+			"level": "trace"
+		}
+	}
+}
